@@ -3908,8 +3908,8 @@ input, select, textarea {
 			} */
 
 			#takact {
-				display: none;
 				font-size: 0em;
+				display: none;
 			}
 			
 			#sidebar nav a {
