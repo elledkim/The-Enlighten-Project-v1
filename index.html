@@ -22,6 +22,13 @@
 	
 	<body class="is-preload">
 
+		<!-- Hamburger Icon -->
+		<div id="hamburger" class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
@@ -260,6 +267,18 @@ We are always looking for more partners.
 					</ul>
 				</div>
 			</footer>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				var hamburger = document.getElementById('hamburger');
+				var sidebar = document.getElementById('sidebar');
+				
+				hamburger.addEventListener('click', function() {
+					sidebar.style.transform = (sidebar.style.transform === 'translateX(0px)') ? 'translateX(-100%)' : 'translateX(0px)';
+				});
+			});
+		</script>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

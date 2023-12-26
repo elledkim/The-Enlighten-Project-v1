@@ -3879,10 +3879,36 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+				/* Hamburger Icon Style */
+/* 
+		.hamburger {
+			display: none; /* Hidden by default */
+			/* cursor: pointer;
+			position: fixed;
+			top: 1em;
+			left: 1em;
+			z-index: 9999; */
+		/* }  */
 
-			#sidebar {
-				display: none;
+	
+/* 
+		.hamburger span {
+			display: block;
+			width: 25px;
+			height: 3px;
+			margin-bottom: 5px;
+			background: white;
+			transition: all 0.3s ease-in-out;
+		} /
+*
+		/* Show hamburger icon only on mobile screens */
+		@media screen and (max-width: 736px) {
+			/* .hamburger {
+				display: block;
+			} */
+
+			#sidebar nav a {
+				font-size: 0.4em; /* Adjust the font-size as needed */
 			}
 
 		}
