@@ -3907,6 +3907,11 @@ input, select, textarea {
 				display: block;
 			} */
 
+			#takact {
+				display: none;
+				font-size: 0em;
+			}
+			
 			#sidebar nav a {
 				font-size: 0.4em; /* Adjust the font-size as needed */
 			}
