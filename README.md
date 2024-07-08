@@ -1,3 +1,4 @@
-First version of The Enlighten Project's webpage. \
-Current version is hosted at www.theenlightenproject.org.\\
-Template from https://html5up.net/
+First version of The Enlighten Project Inc.'s webpage. \
+Current version is hosted at www.theenlightenproject.org. \
+\
+<i> Template from https://html5up.net/
